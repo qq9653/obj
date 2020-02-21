@@ -1,0 +1,26 @@
+.Swiper-comp-contant {
+	width: 700px;
+	margin: auto;
+	.Swiper-item-contant {
+		.Swiper-item-img {
+			width: 100%;
+			border-radius: 8px;
+		}
+		.Swiper-item-name-row {
+			height: 30px;
+			line-height: 30px;
+		}
+	}
+	.Swiper-item-contant.Swiper-item-padding {
+		padding: 0 10px;
+	}
+	.nodata-swiper {
+		width: 700px;
+		height: 100%;
+		background-color: rgba($color: #ddd, $alpha: .7);
+		height: 350px;
+		line-height: 350px;
+		margin: auto;
+		border-radius: 8px;
+	}
+}
